@@ -16,3 +16,12 @@ main {
     padding: 1rem;
     text-align: center;
 }
+
+.sidebar {
+    width: 200px;
+    background-color: #333;
+    color: white;
+    display: flex;
+    flex-direction: column;
+    padding: 20px;
+}
