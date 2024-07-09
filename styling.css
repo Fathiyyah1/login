@@ -104,6 +104,11 @@ body {
     color: #007BFF;
 }
 
-.info-container h2 {
-    margin-top: 0;
+.info-container img{
+    width: 683px;
+
+    left: 683px;
+    gap: 0px;
+    opacity: 0px;
+    
 }
