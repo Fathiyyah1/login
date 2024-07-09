@@ -1,17 +1,109 @@
 body {
     font-family: Arial, sans-serif;
     margin: 0;
-    padding: 0;
-
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-color: #f0f0f0;
 }
 
+.main-container {
+    display: flex;
+    background: #fff;
+    box-shadow: 0 0 10px rgba(0,0,0,0.1);
+    border-radius: 10px;
+    overflow: hidden;
+}
 
+.form-container, .info-container {
+    padding: 20px;
+}
 
-.sidebar {
-    width: 200px;
-    background-color: #333;
-    color: rgba(49, 53, 63, 1);
+.form-container {
+    width: 300px;
+    border-right: 1px solid #ddd;
+}
+
+.info-container {
+    padding: 20px;
+    width: 300px;
+}
+
+.title {
+    font-size: 24px;
+    margin-bottom: 20px;
+}
+
+.form {
     display: flex;
     flex-direction: column;
-    padding: 20px;
+}
+
+.input-group {
+    margin-bottom: 15px;
+}
+
+.input-group label {
+    display: block;
+    margin-bottom: 5px;
+}
+
+.input-group input {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+}
+
+.forgot {
+    margin-top: 5px;
+}
+
+.forgot a {
+    text-decoration: none;
+    color: #007BFF;
+}
+
+.sign {
+    background-color: #007BFF;
+    color: white;
+    border: none;
+    padding: 10px;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.social-message, .social-icons, .signup {
+    margin-top: 20px;
+    text-align: center;
+}
+
+.social-message .line {
+    display: inline-block;
+    width: 30px;
+    height: 1px;
+    background-color: #ddd;
+    margin: 0 10px;
+}
+
+.social-icons {
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+}
+
+.icon {
+    background: none;
+    border: none;
+    cursor: pointer;
+}
+
+.signup a {
+    text-decoration: none;
+    color: #007BFF;
+}
+
+.info-container h2 {
+    margin-top: 0;
 }
